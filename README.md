@@ -1,23 +1,25 @@
 # Vaporeon Origin
 Vaporeon datapack for the Minecraft Fabric mod known as Origins.
 
-## "Vanilla" Powers:
-+ Aqua Affinity
-+ Fins
-+ Like Water
-+ Swim Speed
+### **"Vanilla" Powers:**
+---
+**+** Aqua Affinity\
+**+** Fins\
+**+** Like Water\
+**+** Swim Speed\
 
-## Custom Powers:
-+ Water Stealth (90% transparency and completely ignored by hostile mobs when enabled underwater. Toggle with G.)
-+ Water Absorb (Regeneration 3 while submerged in water.)
-+ Rain Absorb (Regeneration 1 while in the rain.)
-+ Advanced Gills (The Gills power from Merlings, but with no downside on land.)
-+ Wet Eyes (Custom version of Wet Eyes that makes it so it will always give Night Vision underwater, else it toggled with Water Stealth.)
-+ Fishy Appetite (Fish fills 1.25x more hunger and saturation.)
+### **Custom Powers:**
+---
+**+** Water Stealth (90% transparency and completely ignored by hostile mobs when enabled underwater. Toggle with G.)\
+**+** Water Absorb (Regeneration 3 while submerged in water.)\
+**+** Rain Absorb (Regeneration 1 while in the rain.)\
+**+** Advanced Gills (The Gills power from Merlings, but with no downside on land.)\
+**+** Wet Eyes (Custom version of Wet Eyes that makes it so it will always give Night Vision underwater, else it toggled with Water Stealth.)\
+**+** Fishy Appetite (Fish fills 1.25x more hunger and saturation.)
 
-? mob friendly/mob normal (Hidden powers that provide functionality to Water Stealth)
-? toggle (Normally hidden, all this is used for is the "and" function so you can toggle Water Stealth only while underwater.)
+**?** mob friendly/mob normal (Hidden powers that provide functionality to Water Stealth)\
+**?** toggle (Normally hidden, all this is used for is the "and" function so you can toggle Water Stealth only while underwater.)
 
-- Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)
-- Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)
-- Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)
+**-** Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)\
+**-** Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)\
+**-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)\
