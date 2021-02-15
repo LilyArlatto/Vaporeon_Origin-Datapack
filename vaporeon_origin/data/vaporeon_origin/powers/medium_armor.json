@@ -1,0 +1,22 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 20,
+	"effect": {
+		"effect": "minecraft:slowness",
+		"duration": 20,
+		"amplifier": 0,
+		"is_ambient": true,
+		"show_particles": false,
+		"show_icon": false
+	},
+	"condition": {
+		"type": "origins:attribute",
+		"attribute": "minecraft:generic.armor",
+		"comparison": ">=",
+		"compare_to": 15
+	},
+	"name": "Too Heavy",
+	"description": "Full iron armor is too heavy for you, making you slightly slower should you choose to wear it."
+}
