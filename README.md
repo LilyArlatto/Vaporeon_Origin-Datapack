@@ -1,13 +1,10 @@
-# Vaporeon Origin
-Vaporeon datapack for the Minecraft Fabric mod known as Origins.
-
-### **"Vanilla" Powers:**
+## **"Vanilla" Powers:**
 **+** Aqua Affinity\
 **+** Fins\
 **+** Like Water\
 **+** Swim Speed
 
-### **Custom Powers:**
+## **Custom Powers:**
 **+** Water Stealth (90% transparency and completely ignored by hostile mobs when enabled underwater. Toggle with G.)\
 **+** Water Absorb (Regeneration 3 while submerged in water.)\
 **+** Rain Absorb (Regeneration 1 while in the rain.)\
