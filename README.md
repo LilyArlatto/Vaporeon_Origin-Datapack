@@ -18,3 +18,6 @@
 **-** Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)\
 **-** Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)\
 **-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)
+
+## **Download**
+The download for this origin can be found in releases.
