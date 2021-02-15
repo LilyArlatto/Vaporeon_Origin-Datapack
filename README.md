@@ -6,7 +6,7 @@ Vaporeon datapack for the Minecraft Fabric mod known as Origins.
 **+** Aqua Affinity\
 **+** Fins\
 **+** Like Water\
-**+** Swim Speed\
+**+** Swim Speed
 
 ### **Custom Powers:**
 ---
@@ -22,4 +22,4 @@ Vaporeon datapack for the Minecraft Fabric mod known as Origins.
 
 **-** Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)\
 **-** Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)\
-**-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)\
+**-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)
