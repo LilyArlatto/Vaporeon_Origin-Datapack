@@ -20,7 +20,7 @@
 **-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)
 
 ## **Download**
-The download for this origin can be found in [releases.](https://github.com/LilyArlatto/Vaporeon_Origin-Datapack/releases)
+The download for this origin can be found in [releases](https://github.com/LilyArlatto/Vaporeon_Origin-Datapack/releases).
 
 ## **Required Mods**
 This datapack requires a few things to be installed in order to do anything. You need [Fabric Mod Loader](https://fabricmc.net/use/), [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api), and, of course, [Origins](https://www.curseforge.com/minecraft/mc-mods/origins).
