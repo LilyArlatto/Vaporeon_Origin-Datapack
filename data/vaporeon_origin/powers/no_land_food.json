@@ -1,0 +1,19 @@
+{
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient":{
+          "tag": "vaporeon_origin:vapdiet"
+        }
+      },
+      {
+        "type": "origins:food"
+      }
+    ]
+  },
+  "name": "Aquatic Diet",
+  "description": "You cannot eat any meat from land animals. Only fruits, veggies, and fish for you."
+}
