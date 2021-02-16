@@ -1,0 +1,30 @@
+{
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 20,
+	"effects": [
+		{
+			"effect": "minecraft:slowness",
+			"duration": 20,
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		},
+		{
+			"effect": "minecraft:weakness",
+			"duration": 20,
+			"amplifier": 0,
+			"is_ambient": true,
+			"show_particles": false,
+			"show_icon": false
+		}
+	],
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "the_nether"
+		},
+		"name": "Heat Sensitivity",
+		"description": "Very hot temperatures and climates will take a toll on you, so you will go slower and be weaker in places like deserts and near lava.. It's especially bad in the Nether."
+}

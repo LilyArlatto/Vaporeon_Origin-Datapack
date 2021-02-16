@@ -1,0 +1,39 @@
+{
+  "type": "origins:active_self",
+  "hidden": true,
+  "key": "secondary",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s minecraft:potion{Potion:\"minecraft:water\"} 1",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "give @s minecraft:glass_bottle 1",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "vaporeon_origin:nether_timer",
+        "change": 15
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:potion"
+      }
+    }
+  },
+  "cooldown": 20,
+  "hud_render": {
+    "should_render": false
+  }
+}
