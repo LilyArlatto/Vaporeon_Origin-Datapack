@@ -5,7 +5,7 @@
 **+** Swim Speed
 
 ## **Custom Powers:**
-**+** Water Stealth (90% transparency and completely ignored by hostile mobs when enabled underwater. Toggle with G.)\
+**+** Water Stealth (90% transparency and completely ignored by hostile mobs when enabled underwater. Toggle with G. Now has a limited use time of 15 seconds, once the bar depletes it will need to be half full before the power activates again.)\
 **+** Water Absorb (Regeneration 3 while submerged in water.)\
 **+** Rain Absorb (Regeneration 1 while in the rain.)\
 **+** Advanced Gills (The Gills power from Merlings, but with no downside on land.)\
@@ -17,7 +17,8 @@
 
 **-** Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)\
 **-** Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)\
-**-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)
+**-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)\
+**-** Heat Sensitivity (Being in hot biomes will give you slowness and weakness 1, being in the nether will start to damage you after 5 minutes. Water bottles restore 15 seconds to this timer, to use a water bottle for this purpose you must hold it in your hand and press your secondary action key.)
 
 ## **Download**
 The download for this origin can be found in [releases](https://github.com/LilyArlatto/Vaporeon_Origin-Datapack/releases).
