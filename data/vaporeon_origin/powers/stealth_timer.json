@@ -6,6 +6,7 @@
 	"start_value": 60,
 	"hud_render": {
 		"should_render": true,
+		"sprite_location": "vaporeon_origin:textures/gui/resource_bar.png",
 		"bar_index": 1
 	}
 }
