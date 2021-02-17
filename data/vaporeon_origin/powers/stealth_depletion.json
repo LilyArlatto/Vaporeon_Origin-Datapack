@@ -1,0 +1,14 @@
+{
+	"hidden": true,
+	"type": "origins:action_over_time",
+	"interval": 10,
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "vaporeon_origin:stealth_timer",
+		"change": -2
+	},
+	"condition": {
+		"type": "origins:power_active",
+		"power": "vaporeon_origin:water_stealth"
+	}
+}

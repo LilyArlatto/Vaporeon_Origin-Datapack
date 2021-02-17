@@ -1,0 +1,35 @@
+{
+	"name": "mob normal",
+	"hidden": true,
+	"type": "origins:action_over_time",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:power_active",
+					"power": "vaporeon_origin:water_stealth",
+					"inverted": true
+				},
+				{
+					"type": "origins:resource",
+					"resource": "vaporeon_origin:stealth_byte",
+					"comparison": "<",
+					"compare_to": 1
+				}
+			]
+		},
+		"if_action": {
+			"type": "origins:change_resource",
+			"resource": "vaporeon_origin:stealth_timer",
+			"change": 4
+		},
+		"else_action": {
+			"type": "origins:change_resource",
+			"resource": "vaporeon_origin:stealth_timer",
+			"change": 1
+		}
+	}
+}

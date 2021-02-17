@@ -1,0 +1,11 @@
+{
+	"hidden": true,
+	"type": "origins:resource",
+	"min": 0,
+	"max": 60,
+	"start_value": 60,
+	"hud_render": {
+		"should_render": true,
+		"bar_index": 1
+	}
+}

@@ -1,0 +1,82 @@
+{
+	"hidden": true,
+	"type": "origins:action_over_time",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [
+				{
+					"type": "origins:or",
+					"conditions": [
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:badlands"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:badlands_plateau"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:desert"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:desert_hills"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:eroded_badlands"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:modified_badlands_plateau"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:modified_wooded_badlands_plateau"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:savanna"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:savanna_plateau"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:shattered_savanna"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:shattered_savanna_plateau"
+						},
+						{
+							"type": "origins:biome",
+							"biome": "minecraft:wooded_badlands_plateau"
+						}
+					]
+				},
+				{
+					"type": "origins:exposed_to_sun"
+				}
+			]
+		},
+		"if_action": {
+			"type": "origins:change_resource",
+			"resource": "vaporeon_origin:heat_timer",
+			"change": -1
+		},
+		"else_action": {
+			"type": "origins:change_resource",
+			"resource": "vaporeon_origin:heat_timer",
+			"change": 10
+		}
+	},
+	"hud_render": {
+		"should_render": false
+	}
+}
