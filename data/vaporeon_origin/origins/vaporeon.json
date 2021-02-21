@@ -9,6 +9,7 @@
 		"vaporeon_origin:fragile",
 		"vaporeon_origin:heat_damage",
 		"vaporeon_origin:heat_depletion",
+		"vaporeon_origin:heat_regen",
 		"vaporeon_origin:heat_replenish",
 		"vaporeon_origin:heat_timer",
 		"vaporeon_origin:heat_weakness",
