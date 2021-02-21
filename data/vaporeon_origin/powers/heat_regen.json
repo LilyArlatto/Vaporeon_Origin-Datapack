@@ -1,0 +1,28 @@
+{
+	"hidden": true,
+	"type": "origins:action_over_time",
+	"interval": 20,
+	"entity_action": {
+		"type": "origins:change_resource",
+		"resource": "vaporeon_origin:heat_timer",
+		"change": 5
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:power_active",
+				"power": "vaporeon_origin:nether_depletion",
+				"inverted": true
+			},
+			{
+				"type": "origins:power_active",
+				"power": "vaporeon_origin:heat_depletion",
+				"inverted": true
+			}
+		]
+	},
+	"hud_render": {
+		"should_render": false
+	}
+}

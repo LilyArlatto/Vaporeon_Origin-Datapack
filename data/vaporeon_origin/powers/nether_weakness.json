@@ -33,7 +33,7 @@
 					},
 					{
 						"type": "origins:block_in_radius",
-						"radius": 5,
+						"radius": 2,
 						"block_condition": {
 							"type": "origins:block",
 							"block": "minecraft:lava"

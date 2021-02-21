@@ -1,6 +1,6 @@
 {
 	"name": "Fishy appetite",
-	"description": "Fish will fill your hunger and saturation 1.25x more than normal.",
+	"description": "Fish will fill your hunger and saturation 1.5x more than normal.",
 	"type": "origins:modify_food",
 	"item_condition": {
 		"type": "origins:ingredient",
@@ -9,13 +9,13 @@
 		}
 	},
 	"food_modifier": {
-		"name": "1.25x fish hunger",
-		"value": 0.25,
+		"name": "1.5x fish hunger",
+		"value": 0.5,
 		"operation": "multiply_base"
 	},
 	"saturation_modifier": {
-		"name": "1.25x fish saturation",
-		"value": 0.25,
+		"name": "1.5x fish saturation",
+		"value": 0.5,
 		"operation": "multiply_base"
 	}
 }

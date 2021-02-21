@@ -25,7 +25,7 @@
 		"type": "origins:resource",
 		"resource": "vaporeon_origin:heat_timer",
 		"comparison": "<",
-		"compare_to": 300
+		"compare_to": 76
 		},
 		"name": "heat weakness",
 		"hidden": true

@@ -7,12 +7,12 @@
 		"actions": [
 			{
 				"type": "origins:execute_command",
-				"command": "clear @s minecraft:potion{Potion:\"minecraft:water\"} 1",
+				"command": "clear @s minecraft:water_bucket 1",
 				"permission_level": 4
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "give @s minecraft:glass_bottle 1",
+				"command": "give @s minecraft:bucket 1",
 				"permission_level": 4
 			},
 			{
@@ -31,15 +31,15 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"item": "minecraft:potion"
+					"item": "minecraft:water_bucket"
 					}
 				}
 			},
 			{
 				"type": "origins:resource",
 				"resource": "vaporeon_origin:heat_timer",
-				"comparison": ">",
-				"compare_to": 30
+				"comparison": "<",
+				"compare_to": 271
 			}
 		]
 	},

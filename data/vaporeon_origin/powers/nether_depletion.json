@@ -3,21 +3,13 @@
 	"type": "origins:action_over_time",
 	"interval": 20,
 	"entity_action": {
-		"type": "origins:if_else",
-		"condition": {
-			"type": "origins:dimension",
-			"dimension": "the_nether"
-		},
-		"if_action": {
-			"type": "origins:change_resource",
-			"resource": "vaporeon_origin:heat_timer",
-			"change": -2
-		},
-		"else_action": {
-			"type": "origins:change_resource",
-			"resource": "vaporeon_origin:heat_timer",
-			"change": 10
-		}
+		"type": "origins:change_resource",
+		"resource": "vaporeon_origin:heat_timer",
+		"change": -2
+	},
+	"condition": {
+		"type": "origins:dimension",
+		"dimension": "the_nether"
 	},
 	"hud_render": {
 		"should_render": false
