@@ -2,8 +2,8 @@
 	"hidden": true,
 	"type": "origins:resource",
 	"min": 0,
-	"max": 600,
-	"start_value": 600,
+	"max": 300,
+	"start_value": 150,
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "vaporeon_origin:textures/gui/resource_bar.png",
