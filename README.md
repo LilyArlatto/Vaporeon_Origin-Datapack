@@ -11,7 +11,7 @@
 **+** Advanced Gills (The Gills power from Merlings, but with no downside on land.)\
 **+** Wet Eyes (Custom version of Wet Eyes that makes it so it will always give Night Vision underwater.)\
 **+** Fishy Appetite (Fish fills 1.5x more hunger and saturation.)\
-**+** Water Combatant (You get crit damage while fast-swimming underwater.)\
+**+** Water Combatant (You get crit damage while fast-swimming underwater.)
 
 **-** Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)\
 **-** Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)\
