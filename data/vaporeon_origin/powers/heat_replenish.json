@@ -1,37 +1,21 @@
 {
-	"type": "origins:active_self",
 	"hidden": true,
-	"key": "secondary",
+	"type": "origins:action_on_item_use",
 	"entity_action": {
-		"type": "origins:and",
-		"actions": [
-			{
-				"type": "origins:execute_command",
-				"command": "clear @s minecraft:water_bucket 1",
-				"permission_level": 4
-			},
-			{
-				"type": "origins:execute_command",
-				"command": "give @s minecraft:bucket 1",
-				"permission_level": 4
-			},
-			{
-				"type": "origins:change_resource",
-				"resource": "vaporeon_origin:heat_timer",
-				"change": 30
-			}
-		]
+		"type": "origins:change_resource",
+		"resource": "vaporeon_origin:heat_timer",
+		"change": 30
 	},
 	"condition": {
 		"type": "origins:and",
 		"conditions": [
 			{
-			"type": "origins:equipped_item",
-			"equipment_slot": "mainhand",
-			"item_condition": {
-				"type": "origins:ingredient",
-				"ingredient": {
-					"item": "minecraft:water_bucket"
+				"type": "origins:equipped_item",
+				"equipment_slot": "mainhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:potion"
 					}
 				}
 			},
@@ -45,6 +29,6 @@
 	},
 	"cooldown": 20,
 	"hud_render": {
-		"should_render": false
+	"should_render": false
 	}
 }
