@@ -16,7 +16,7 @@
 **-** Fragile (Custom version of fragile makes you have 8 hearts instead of 7.)\
 **-** Aquatic Diet (You cannot eat any meat from land animals. Only fruits, veggies, and fish for you.)\
 **-** Too Heavy (Full iron armor and above is too heavy for you and gives a slowness effect if you choose to wear it anyways.)\
-**-** Heat Sensitivity (Being in hot biomes/the nether will slowly reduce the heat bar, which deals half a heart of damage every 2 seconds once depleted. Water buckets restore 30 seconds to this timer, to use a water bucket for this purpose you must hold it in your main hand and press your secondary action key. You will instantly get slowness/weakness when near lava or in the nether, regardless of the heat bar. Else you need to be below 25% heat bar before you get these effects. You now also have to be exposed to sunlight in order for hot biomes to drain your heat meter.)
+**-** Heat Sensitivity (Being in hot biomes/the nether will slowly reduce the heat bar, which deals half a heart of damage every 2 seconds once depleted. Drinking any type of potion will restore 30 seconds to the timer. You will instantly get slowness/weakness when near lava or in the nether, regardless of the heat bar. Else you need to be below 25% heat bar before you get these effects. You also have to be exposed to sunlight in order for hot biomes to drain your heat meter.)
 
 ## **Download**
 The download for this origin can be found in [releases](https://github.com/LilyArlatto/Vaporeon_Origin-Datapack/releases).
