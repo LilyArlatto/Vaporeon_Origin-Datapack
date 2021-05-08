@@ -7,25 +7,14 @@
 		"change": 30
 	},
 	"condition": {
-		"type": "origins:and",
-		"conditions": [
-			{
-				"type": "origins:equipped_item",
-				"equipment_slot": "mainhand",
-				"item_condition": {
-					"type": "origins:ingredient",
-					"ingredient": {
-						"item": "minecraft:potion"
-					}
-				}
-			},
-			{
-				"type": "origins:resource",
-				"resource": "vaporeon_origin:heat_timer",
-				"comparison": "<",
-				"compare_to": 271
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "minecraft:potion"
 			}
-		]
+		}
 	},
 	"cooldown": 20,
 	"hud_render": {
